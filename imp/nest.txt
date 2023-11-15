@@ -1,0 +1,26 @@
+npm i -g @nestjs/cli
+
+nest new project-name
+
+nest g module user
+
+docker compose up dev-db -d
+
+yarn add class-validator class-transformer
+
+yarn add argon2
+
+
+yarn add @nest/config
+
+
+
+yarn add @nestjs/passport passport @nestjs/jwt passport-jwt
+
+
+yarn add -D @types/passport-jwt
+
+nest g controller user --no-spec
+
+
+yarn add -D pactum

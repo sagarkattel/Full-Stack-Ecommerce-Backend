@@ -1,0 +1,36 @@
+
+yarn add @prisma/client
+
+1) Install prisma client first
+
+
+
+yarn add prisma -D
+
+
+1) yarn add prisma -D will Install prisma as Depedency
+
+yarn prisma init or npx prisma init
+
+
+1) yarn prisma init This will generate prisma folder with prisma.schema
+
+
+yarn prisma generate or npx prisma generate
+
+
+1) Generate prisma client code like this
+
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+
+now 
+
+
+yarn prisma migrate dev  or npx prisma migrate dev
+
+1) Create or alter the table
+
+yarn prisma studio
+
+1) Run the studio
